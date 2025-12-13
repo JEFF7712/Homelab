@@ -1,0 +1,4 @@
+# Master playbook orchestrating all roles
+- hosts: all
+  roles:
+    - common
